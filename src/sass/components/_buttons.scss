@@ -1,0 +1,24 @@
+.btn__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  color: #fff;
+  width: 20rem;
+  height: 4rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  transition: all 0.4s linear;
+}
+
+.btn__contact:hover {
+  background-color: rgba(255, 255, 255, 0.125);
+}
+
+@media (max-width: 1400px) {
+  .btn__contact {
+    width: 90%;
+    height: 3rem;
+  }
+}

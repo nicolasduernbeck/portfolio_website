@@ -1,0 +1,15 @@
+.icon__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background-image: linear-gradient(90deg, $gradient-icon-box-color-1, $gradient-icon-box-color-2);
+  border-radius: 1rem;
+}
+
+.icon__box {
+  img {
+    width: 3rem;
+  }
+}

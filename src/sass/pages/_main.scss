@@ -1,0 +1,34 @@
+body {
+  background-color: $bg-color;
+  font-family: Montserrat;
+}
+
+.first__name {
+  margin-right: 20rem;
+  font-family: MontserratBold;
+  font-size: 8rem;
+  font-weight: bolder;
+  background: -webkit-linear-gradient($name-color-1, $name-color-2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: -2rem;
+}
+
+.last__name {
+  font-family: MontserratBold;
+  font-size: 8rem;
+  color: #fff;
+}
+
+@media (max-width: 1400px) {
+  .last__name {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .first__name {
+    margin: 0;
+    text-align: center;
+    font-size: 4rem;
+  }
+}
